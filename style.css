@@ -1,0 +1,51 @@
+body{
+    background:#000 !important;
+    margin: 0 auto;
+     color:#FFF;
+    font-family: Comic Sans MS !important;
+}
+header{
+    color:#FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 85px;
+    font-family: Comic Sans MS;
+}
+#reload:hover{
+    color: #000 !important;
+    text-decoration: underline;
+}
+#turnX:hover{
+    color:#FFF !important;
+    text-decoration: underline;
+}
+#turnO:hover{
+    color:#FFF !important;
+    text-decoration: underline;
+}
+
+#container{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: 0px auto;
+}
+#container .row{
+
+    width: 125px;
+    margin:20px 65px;
+    text-align: center;
+    align-content: center;
+}
+.row a{
+    border: 2px solid black;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+.row a:hover{
+    background-color: #ff4d4d !important;
+    color: #FFF !important;
+    text-decoration: none;
+}
